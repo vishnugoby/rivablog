@@ -125,7 +125,7 @@ const App = () => {
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
       <nav className="bg-white shadow-md">
         <div className="max-w-5xl mx-auto px-6 py-4">
-          <div className="flex justify-between items-center">
+          <div className="flex justify-between items-center flex-wrap gap-9">
             <h1 className="text-2xl font-bold text-gray-800">Riva Blog</h1>
             <div className="flex items-center gap-4">
               <button
