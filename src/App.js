@@ -189,7 +189,7 @@ const App = () => {
                     </span>
                   )}
 
-                  <h2 className="text-2xl font-bold text-gray-800 mb-4 hover:text-blue-600">
+                  <h2 className="text-2xl font-bold text-gray-800 mb-4 ">
                     {blog.title}
                   </h2>
                   <p className="text-gray-600 leading-relaxed">
@@ -200,7 +200,7 @@ const App = () => {
                       href={blog.link}
                       target="_blank"
                       rel="noreferrer"
-                      className="text-gray-600 leading-relaxed hover:text-blue-600 bg-slate-100 p-2 rounded-lg mt-3 block text-center"
+                      className="text-gray-600 leading-relaxed hover:text-blue-600 bg-slate-100 p-2 rounded-lg mt-3 block text-center cursor-pointer"
                     >
                       Voir la attachement
                     </a>
