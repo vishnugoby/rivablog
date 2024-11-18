@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 
-const SHARED_PASSWORD = "blogpass123";
+const SHARED_PASSWORD = process.env.REACT_APP_SHARED_PASSWORD;
 const COOKIE_NAME = "blog_auth";
-const SHEET_ID = "1lYuAFbwYq9HiNNyrKEb_5trtCPeXnUXH-5G1T5Wbm-g";
+const SHEET_ID = process.env.REACT_APP_SHEET_ID;
 
 const App = () => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
@@ -198,6 +198,8 @@ const App = () => {
                   {blog.link !== "NON" && (
                     <a
                       href={blog.link}
+                      target="_blank"
+                      rel="noreferrer"
                       className="text-gray-600 leading-relaxed hover:text-blue-600 bg-slate-100 p-2 rounded-lg mt-3 block text-center"
                     >
                       Voir la attachement
