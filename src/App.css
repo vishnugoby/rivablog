@@ -36,3 +36,74 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  min-height: 100vh;
+  /* border: 1px solid green; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  /* border: 1px solid red; */
+  gap: 1rem;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+input {
+  padding: 1rem;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+input:active {
+  border-color: #1e8a54;
+}
+
+.addButton {
+  padding: 1rem;
+  background-color: #1e8a54;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.results {
+  gap: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.taskItem {
+  border: 1px solid gray;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 5px;
+  padding: 0.75rem;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.deleteButton {
+  background-color: red;
+  width: 30px;
+  height: 30px;
+  padding: 1rem;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.deleteButton:hover {
+  background-color: #d71616;
+}
