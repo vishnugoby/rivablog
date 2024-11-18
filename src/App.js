@@ -113,7 +113,7 @@ const App = () => {
               type="submit"
               className="w-full bg-blue-500 text-white py-3 rounded-lg font-medium hover:bg-blue-600"
             >
-              Connexion
+              Connexion à Riva Blog
             </button>
           </form>
         </div>
