@@ -84,7 +84,7 @@ const App = () => {
 
   if (!isAuthenticated) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex items-center justify-center p-4">
+      <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex items-center justify-center p-4 ">
         <div className="bg-white rounded-2xl shadow-xl p-8 w-full max-w-md">
           <div className="text-center mb-8">
             <h2 className="text-3xl font-bold text-gray-800 mb-2">
@@ -113,7 +113,7 @@ const App = () => {
               type="submit"
               className="w-full bg-blue-500 text-white py-3 rounded-lg font-medium hover:bg-blue-600"
             >
-              Connexion à Riva Blog
+              Connexion à Portail Riva
             </button>
           </form>
         </div>
@@ -122,11 +122,11 @@ const App = () => {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 pb-64 ">
       <nav className="bg-white shadow-md">
         <div className="max-w-5xl mx-auto px-6 py-4">
-          <div className="flex justify-between items-center flex-wrap gap-9">
-            <h1 className="text-2xl font-bold text-gray-800">Riva Blog</h1>
+          <div className="flex justify-between items-center flex-wrap gap-3">
+            <h1 className="text-2xl font-bold text-gray-800">Portail Riva</h1>
             <div className="flex items-center gap-4">
               <button
                 onClick={fetchBlogs}
@@ -200,7 +200,7 @@ const App = () => {
                       href={blog.link}
                       target="_blank"
                       rel="noreferrer"
-                      className="text-gray-600 leading-relaxed hover:text-blue-600 bg-slate-100 p-2 rounded-lg mt-3 block text-center cursor-pointer"
+                      className="text-black leading-relaxed hover:text-blue-600 bg-blue-400 p-2 rounded-lg mt-3 block text-center cursor-pointer"
                     >
                       Voir la attachement
                     </a>
