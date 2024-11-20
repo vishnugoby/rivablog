@@ -88,7 +88,7 @@ const App = () => {
         <div className="bg-white rounded-2xl shadow-xl p-8 w-full max-w-md">
           <div className="text-center mb-8">
             <h2 className="text-3xl font-bold text-gray-800 mb-2">
-              Bienvenue à Riva Blog
+              Bienvenue à Portail Riva
             </h2>
             <p className="text-gray-600">
               Tappez le mot de passe partagé pour accéder aux articles de blog.
@@ -111,7 +111,7 @@ const App = () => {
             )}
             <button
               type="submit"
-              className="w-full bg-blue-500 text-white py-3 rounded-lg font-medium hover:bg-blue-600"
+              className="w-full bg-blue-400 text-white py-3 rounded-lg font-bold hover:bg-blue-600"
             >
               Connexion à Portail Riva
             </button>
